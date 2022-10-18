@@ -1,0 +1,81 @@
+.menu_btn{
+    width: 3rem;
+
+    @media (min-width:48em) {
+        width: 4rem;
+    }
+
+    @media (min-width:62rem) {
+        display: none;
+    }
+
+    .close, .menu{
+        fill: var(--nc-);
+    }
+}
+
+.navigation{
+
+    @media (max-width:calc(62em - 0.01px)) {
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        background-color: var(--pc-one);
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        padding: 5rem 5rem;
+        flex-direction: column;
+        z-index: 5;
+
+        nav{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .external_link{
+       margin-top: 3rem;
+    }
+}
+
+.none{
+    display: none;
+}
+
+#github, #gmail{
+    fill: var(--nc-);
+    transform: scale(2);
+
+    &:hover{
+        fill: var(--sc-one);
+    }
+}
+#gmail{
+    margin-left: 6rem;
+}
+
+.external_link{
+    @media (min-width:62em) {
+        position: fixed;
+        top: 50%;
+        left:0%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+        transform: translateY(-75%);
+        background-color: var(--pc-one);
+        border: 3px solid var(--sc-one);
+        border-left: none;
+
+
+        #gmail{
+            margin-left: 0%;
+            margin-top: 3rem;
+        }
+    }
+
+
+}
+
+

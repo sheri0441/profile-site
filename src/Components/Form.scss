@@ -1,0 +1,48 @@
+form{
+    margin-top: 2rem;
+    margin-inline: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    button{
+        margin-top: 1rem;
+        background-color: var(--pc-one);
+        border: 2px solid var(--sc-one);
+        color: var(--sc-one);
+        font-size: 1.25rem;
+        padding: 0.5rem 1.5rem;
+        position: relative;
+        z-index: 1;
+        margin-left: auto;
+
+        @media (min-width:48em) {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width:62em) {
+            font-size: 1.75rem;
+        }
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            bottom: 0;
+            background-color: var(--sc-one);
+            width: 0%;
+            height: 101%;
+            transition: width .5s ease-in-out;
+            z-index: -1;
+        }
+    
+        &:hover{
+            color: var(--pc-two);
+    
+            &::after{
+                width: 101%;
+            }
+        }
+    }
+}

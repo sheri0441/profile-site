@@ -1,0 +1,37 @@
+{
+    "Hero":[
+        {
+            "name":"Sheharyar Javaid",
+            "mainrole": "Front-End/Reactjs/Sass"
+        }
+    ],
+
+    "About":[
+        {
+            "image":"../Asset/sheharyar.png",
+            "bio" : [
+                "Hello there! I am Sheharyar. I am Front-end developer. I have experience of several amazing projects.",
+                "I worked with Html, CSS, JavaScript and Reactjs.",
+                "Now I have nothing else to say so that's it.:)"
+            ],
+            "skills":[
+                "HTML","CSS","JavaScript","Taiwind CSS", "Bootstrap","Figma",
+                "Photoshop","Illustrator","Resposive Design","SCSS","API"
+            ]
+        }
+    ],
+
+    "Projects":{
+        "projectlist":[
+            {
+                "projectName":"Space Tourism",
+                "link": "https://www.google.com/",
+                "role": "Front-End",
+                "image": "Asset/pattern4.png",
+                "num": 1
+            }
+        ]
+    }
+
+    
+}

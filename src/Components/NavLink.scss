@@ -1,0 +1,28 @@
+
+.nav-link{
+    text-decoration: none;
+    color: var(--sc-one);
+    text-transform: capitalize;
+    padding-right: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:2rem 2rem 0 0;
+
+    @media (min-width:62em) {
+        font-size: 1.5rem;
+        padding: 0 2rem 0 0;
+    }
+
+    &:hover{
+        color: var(--nc-);
+    }
+
+    &:target{
+        color: var(--nc-);
+    }
+
+}
+
+.active{
+    color: var(--nc-);
+}

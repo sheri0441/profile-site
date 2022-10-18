@@ -1,0 +1,52 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+
+    label{
+        margin-bottom: 0.5rem;
+        text-transform: capitalize;
+        
+        @media (min-width:48em) {
+            font-size: 1.25rem;
+        }
+
+        @media (min-width:62em) {
+            font-size: 1.5rem;
+        }
+    }
+
+    input, textarea{
+        background-color: var(--pc-one);
+        border: 1px solid var(--nc-);
+        padding: 1em;
+        color: var(--nc-);
+        font-weight: 600;
+
+        @media (min-width:62em) {
+            font-size: 1.5rem;
+        }
+        
+        &::s{
+            border-color: var(--sc-one);
+        }
+
+        &:focus{
+            background-color: var(--sc-one);
+            color: var(--nc-);
+            // outline: none;
+            outline: 2px solid var(--sc-one);
+        }
+
+        &:autofill{
+            outline: none;
+            appearance: none;
+            background-color: purple !important;
+            color: black !important;
+        }
+        
+    }
+    
+
+}

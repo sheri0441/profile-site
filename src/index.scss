@@ -1,0 +1,27 @@
+:root{
+    --pc-one:rgb(39, 38, 67);
+    --pc-two:rgb(227, 246, 245);
+    --sc-one:rgb(44, 105, 141);
+    --sc-two:rgb(186, 232, 232);
+    --nc-:#fff;
+    // --bp-m: 48em;
+    // --bp-l: 62em;
+    // --bp-xl: 75em;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--pc-one);
+    color: var(--pc-two);
+}

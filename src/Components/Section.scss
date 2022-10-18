@@ -1,0 +1,48 @@
+section{
+    padding: 2rem 1rem;
+
+    @media (min-width:48em) {
+        padding-inline: 3em;
+    }
+
+    @media (min-width:62em) {
+        padding-inline: 5rem;
+    }
+    
+    h2{
+        text-align: center;
+        position: relative;
+        color: var(--sc-one);
+        width: fit-content;
+        margin-inline: auto;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        
+        @media (min-width:48em) {
+            font-size: 3rem;
+        }
+        
+        @media (min-width:62em) {
+            font-size: 4rem;
+        }
+        
+        &::after,&::before{
+            content: '/';
+            position: absolute;
+            width: fit-content;
+            font-weight: bold;
+        }
+        
+        &::before{
+            top: 0;
+            left: -20%;
+        }
+        
+        &::after{
+            top: 0;
+            right: -20%;
+        }
+    }
+}

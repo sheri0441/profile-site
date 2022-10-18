@@ -1,0 +1,76 @@
+
+// .btn{
+//     text-decoration: none;
+//     color: var(--pc-one);
+//     font-weight: bold;
+//     font-size: 2rem;
+//     background-color: var(--pc-two);
+//     position: relative;
+//     padding: 1rem 2rem;
+//     // background-
+// }
+
+// .btn::after, .btn::before{
+//     content: '';
+//     position: absolute;
+//     // background-color: var(--pc-one);
+//     width: 1.5rem;
+//     height: 100%;
+// }
+
+// .btn::after{
+//     top: -1px;
+//     left: -1px;
+//     // border-top: 10px solid var(--pc-one);
+//     // border-bottom: 10px solid transparent;
+//     // border-right: 10px solid transparent;
+//     // border-left: 10px solid var(--pc-one);
+//     // color: var(--pc-one);
+//     background-image: linear-gradient(to top left, transparent 50%, var(--pc-one) 50%);
+// }
+
+// .btn::before{
+//     bottom: -1px;
+//     right: -1px;
+//     background-image: linear-gradient(to bottom right, transparent 50%, var(--pc-one) 50%);
+
+// }
+
+.btn{
+    text-decoration: none;
+    color: var(--sc-one);
+    font-weight: bold;
+    font-size: 1.5rem; 
+    padding: 0.5rem 2rem;
+    border: 2px solid var(--sc-one);
+    position: relative;
+
+    @media (min-width:48em) {
+        font-size: 1.75rem;
+    }
+
+    @media (min-width:62em) {
+        font-size: rem
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: var(--sc-one);
+        width: 0%;
+        height: 101%;
+        transition: width .5s ease-in-out;
+        z-index: -1;
+    }
+
+    &:hover{
+        color: var(--pc-two);
+
+        &::after{
+            width: 101%;
+        }
+    }
+}
+

@@ -1,0 +1,31 @@
+
+header{
+
+    .header-div{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        max-width: 90rem;
+        margin-inline: auto;
+        align-items: center;
+        transition: all 1s ease-in-out;
+    }
+    
+    .preLoaderState {
+        height: 100vh;
+    }
+    position: fixed;
+    background-color: var(--pc-one);
+    border-bottom: 1px solid var(--sc-one);
+    box-sizing: border-box;
+    z-index: 99;
+    width: 100%;
+}
+
+
+
+// .preloader{
+//     height: 100vh;
+//     width: 100vw;
+// }
+

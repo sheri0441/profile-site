@@ -2,7 +2,7 @@
     "Hero":[
         {
             "name":"Sheharyar Javaid",
-            "mainrole": "Front-End/Reactjs/Sass"
+            "mainrole": "UI Design / Front-End / Reactjs"
         }
     ],
 
@@ -24,11 +24,32 @@
     "Projects":{
         "projectlist":[
             {
-                "projectName":"Space Tourism",
-                "link": "https://www.google.com/",
+                "projectName":"Country Rest API",
+                "link": "https://countries-data.pages.dev/",
                 "role": "Front-End",
-                "image": "Asset/pattern4.png",
+                "image": "Asset/CountryRestAPI.jpg",
                 "num": 1
+            },
+            {
+                "projectName": "IP Address Tracker",
+                "link": "https://ip-tracker.pages.dev/",
+                "role": "Front-End",
+                "image": "Asset/IAT.jpg",
+                "num": 2
+            },
+            {
+                "projectName":"Sneaker E-commrace",
+                "link": "https://sneaker-ecommrace.pages.dev/",
+                "role": "Front-End",
+                "image": "Asset/sneaker.jpg",
+                "num": 3
+            },
+            {
+                "projectName":"S",
+                "link": "https://profile-site-1rg.pages.dev/",
+                "role": "UI design / Front-End",
+                "image": "Asset/SS.png",
+                "num": 4
             }
         ]
     }

@@ -1,15 +1,15 @@
 import './ProjectItem.scss';
 import picture from '../Asset/pattern4.png'
 
-const ProjectItem =() => {
+const ProjectItem =({image, link, projectName, role}) => {
     return(
-        <a href='#' className='project-item'>
+        <a href={link} className='project-item'>
             <div>
-                <img className='project-image' src={picture} alt='' />
+                <img className='project-image' src={image} alt={projectName} />
                 <div>
-                    <h3 className='project-title'>Title</h3>
+                    <h3 className='project-title'>{projectName}</h3>
                     <div className='project-role'>
-                        <p className='role'>Role I Played</p>
+                        <p className='role'>{role}</p>
                         <p className='view'>View Project</p>
 
                     </div>

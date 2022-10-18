@@ -4,6 +4,7 @@
     display: block;
     text-decoration: none;
     margin-inline: auto;
+    margin-top: auto;
     
     &:hover{
         background-color:rgba(227, 246, 245, 0.064);
@@ -48,26 +49,7 @@
             transform: translate3d(0px, 0px, 0px);
             transition: transform 0.5s ease-in-out;
             color: var(--sc-two);
-            // padding: 0.125rem 1rem;
         }
 
-
-
-
-        // &::before{
-
-        //         content: 'View Project';
-        //         height: 100%;
-        //         position: absolute;
-        //         top: 0;
-        //         transform-origin: 100% 50%;
-        //         transform: translate3d(200%, 0, 0);
-        //         background-color:var(--pc-two);
-        //         color: var(--sc-one);
-        //         padding-inline:1rem ;
-        //         transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
-        //         width: 0;
-        //         transition: width   5s ease-in-out;
-        // }
     }
 }
